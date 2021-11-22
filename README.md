@@ -9,10 +9,9 @@ I started this to learn Python on my own way beside courses that I watch and try
 
 Things I want to Implement:
 
-	-	GUI [Not yet learned, but already tried Py
+	-	GUI [Not yet learned, but already tried PySimpleGui]
 	- 	Completly customizable Values
 	-	Automatic Download of selected Webdriver [ATM it juat downloads Chromewebdriver and uses it]
-	- 
 	
 Maybe possible in the future (not yet my skillbase):
 
