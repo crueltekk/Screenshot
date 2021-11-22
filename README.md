@@ -10,7 +10,7 @@ I started this to learn Python on my own way beside courses that I watch and try
 Things I want to Implement:
 
 	-	GUI [Not yet learned, but already tried Py
-	- Completly customizable Values
+	- 	Completly customizable Values
 	-	Automatic Download of selected Webdriver [ATM it juat downloads Chromewebdriver and uses it]
 	- 
 	
