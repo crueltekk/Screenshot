@@ -9,9 +9,11 @@ I started this to learn Python on my own way beside courses that I watch and try
 
 Things I want to Implement:
 
-	-	GUI [Not yet learned, but already tried PySimpleGui]
+	-	[still to work on] GUI
+		- 23.11.21: Implemented little GUI to Choose wanted Webdriver and sets using webdriver
 	- 	Completly customizable Values
-	-	Automatic Download of selected Webdriver [ATM it juat downloads Chromewebdriver and uses it]
+	-	[check] Automatic Download of selected Webdriver
+		- 23.11.21: Downloads now choosen webdriver from GUI to download if != exists
 	
 Maybe possible in the future (not yet my skillbase):
 
