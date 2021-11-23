@@ -1,7 +1,11 @@
 import PySimpleGUI as sg
 
+# needed variables to pass over
+
 dldriver = ''
 load = False
+
+# GUI layout
 
 layout = [
     [sg.Text('Choose Webdriver to use:', size=(20, 1), font='Lucida', justification='left')],
@@ -14,10 +18,14 @@ layout = [
 
 window = sg.Window('Screenshot a Website', layout)
 
+# Event listeners for buttons
+
 event, values = window.Read()
 print(event, values)
 if event in (None, 'Quit'):
     window.close()
+
+# Sets load to true so it starts downloading
 
 if event == 'Start':
     dldriver = values['webdriver']
