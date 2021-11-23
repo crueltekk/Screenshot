@@ -10,7 +10,7 @@ I started this to learn Python on my own way beside courses that I watch and try
 Things I want to Implement:
 
 	-	[still to work on] GUI
-		- 23.11.21: Implemented little GUI to Choose wanted Webdriver and sets using webdriver
+		- 23.11.21: Implemented little GUI to Choose wanted Webdriver
 	- 	Completly customizable Values
 	-	[check] Automatic Download of selected Webdriver
 		- 23.11.21: Downloads now choosen webdriver from GUI to download if != exists
