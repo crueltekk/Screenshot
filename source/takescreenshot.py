@@ -2,11 +2,10 @@ from os import times
 from PySimpleGUI.PySimpleGUI import P
 from selenium import webdriver
 from selenium.webdriver.chrome import options
-from gui import dldriver
+from gui import dldriver, links
 import time
 
 def take_screenshot():
-    links = ["https://google.de", "tdomeet.de"]
     
     WINDOW_SIZE = "1920, 1080"
     
@@ -22,13 +21,13 @@ def take_screenshot():
         
         driver = webdriver.Firefox(executable_path=f'{dldriver}driver.exe', options=options)
         
-        driver.get(links[0])
+        driver.get(links)
         
         time.sleep(5)
         
         driver.save_screenshot('screens/spawn/screenshot_spawn_area' + timestamp + '.png')
     
-        print(f'Screenshot {links[0]} is taken')
+        print(f'Screenshot {links} is taken')
         
         driver.close()
     elif dldriver == 'chrome':
